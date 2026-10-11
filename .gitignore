@@ -1,0 +1,5 @@
+# Nunca subir claves privadas ni copias con contraseñas reales
+*.pem
+*.key
+*.bak
+.env

@@ -1,0 +1,8 @@
+# /etc/httpd/conf/httpd.conf (solo el bloque modificado)
+# Cambio: AllowOverride None -> AllowOverride All, para que Apache lea los .htaccess de WordPress
+
+<Directory "/var/www/html">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
