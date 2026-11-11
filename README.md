@@ -6,9 +6,13 @@ Ficheros de configuración de la práctica: WordPress con base de datos remota e
 y, en el nivel avanzado, con la base de datos en Amazon RDS. Las contraseñas y las claves
 de WordPress están sustituidas por `********`.
 
+La memoria completa, con todas las capturas y la explicación paso a paso, está en [`docs/memoria.pdf`](docs/memoria.pdf).
+
 ## Estructura
 
 ```
+docs/
+  memoria.pdf                   memoria entregada (43 páginas)
 nivel-basico/
   infraestructura.md            VPC, subredes, Security Groups, instancias y Elastic IP
   mariadb-servidor-privado.sql  usuario publico y base de datos test
